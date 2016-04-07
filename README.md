@@ -1,6 +1,6 @@
 # Scoop Layout Example
 
-![readme.gif](https://raw.githubusercontent.com/coshx/scoop-layout-example/master/readme.gif)
+<img src="https://raw.githubusercontent.com/coshx/scoop-layout-example/master/readme.gif" alt="readme.gif" width="350px">
 
 [Related to this blog post]().
 
