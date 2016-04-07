@@ -6,6 +6,7 @@ import com.coshx.scooplayoutexample.components.MainUIContainer;
 import com.coshx.scooplayoutexample.components.PageBodyUIContainer;
 import com.coshx.scooplayoutexample.components.PageFooterUIContainer;
 import com.coshx.scooplayoutexample.components.PageUIContainer;
+import com.coshx.scooplayoutexample.controllers.BaseController;
 import com.coshx.scooplayoutexample.routers.RouterModule;
 
 import javax.inject.Singleton;
@@ -22,6 +23,8 @@ import dagger.Component;
 })
 public interface ApplicationComponent {
     void inject(MainActivity mainActivity);
+
+    void inject(BaseController controller);
 
     // UiContainers
     void inject(MainUIContainer container);

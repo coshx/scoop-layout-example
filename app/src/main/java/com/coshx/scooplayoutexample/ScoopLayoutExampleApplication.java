@@ -2,6 +2,8 @@ package com.coshx.scooplayoutexample;
 
 import android.app.Application;
 
+import com.lyft.scoop.Scoop;
+
 /**
  * ScoopLayoutExampleApplication
  * <p/>
@@ -15,7 +17,7 @@ public class ScoopLayoutExampleApplication extends Application {
         super.onCreate();
 
         instance = this;
-
+        Scoop.setViewBinder(new ButterKnifeViewBinder());
         applicationComponent = DaggerApplicationComponent.builder().build();
     }
 
