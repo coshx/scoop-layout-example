@@ -1,6 +1,7 @@
 package com.coshx.scooplayoutexample.controllers;
 
 import com.coshx.scooplayoutexample.R;
+import com.coshx.scooplayoutexample.screens.IceCreamFullscreenScreen;
 
 import butterknife.OnClick;
 
@@ -16,6 +17,6 @@ public class StrawberryController extends BaseController {
 
     @OnClick(R.id.strawberry_fullscreen_trigger)
     public void onFullscreenTrigger() {
-
+        router.goTo(new IceCreamFullscreenScreen(R.color.strawberry));
     }
 }

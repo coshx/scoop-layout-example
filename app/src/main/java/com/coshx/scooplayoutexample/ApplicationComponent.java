@@ -7,6 +7,9 @@ import com.coshx.scooplayoutexample.components.PageBodyUIContainer;
 import com.coshx.scooplayoutexample.components.PageFooterUIContainer;
 import com.coshx.scooplayoutexample.components.PageUIContainer;
 import com.coshx.scooplayoutexample.controllers.BaseController;
+import com.coshx.scooplayoutexample.routers.FullscreenRouter;
+import com.coshx.scooplayoutexample.routers.MainRouter;
+import com.coshx.scooplayoutexample.routers.PageRouter;
 import com.coshx.scooplayoutexample.routers.RouterModule;
 
 import javax.inject.Singleton;
@@ -38,4 +41,11 @@ public interface ApplicationComponent {
     void inject(PageFooterUIContainer container);
 
     void inject(FullscreenBodyUIContainer container);
+
+    // Routers
+    void inject(MainRouter mainRouter);
+
+    void inject(PageRouter pageRouter);
+
+    void inject(FullscreenRouter fullscreenRouter);
 }

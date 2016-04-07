@@ -9,8 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="This is a fullscreen"
+        android:text="### Fullscreen ###"
         android:textColor="@color/white"
+        android:textSize="16dp"
         />
 
 </RelativeLayout>
