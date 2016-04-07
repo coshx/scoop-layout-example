@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Scoop Layout Example</string>
+
+    <string name="fullscreen_trigger">Show me fullscreen</string>
 </resources>
