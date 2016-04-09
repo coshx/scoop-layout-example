@@ -8,3 +8,4 @@ This application shows how to build a body/footer layout with [Scoop](https://gi
 
 To make it short, we use waterfall routers to forward screens among the different subcomponents of our UI. 
 
+This example only overwrites `goTo` and `goBack` methods. If needed, you can implement the same behavior for the other Router's methods.
